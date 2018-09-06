@@ -14,5 +14,5 @@ coverage
 src/config/parameters.ts
 .DS_Store
 .DS_Store?
-ios/
-android/
+ios
+android

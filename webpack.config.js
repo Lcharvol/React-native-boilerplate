@@ -20,11 +20,6 @@ const webpackConfig = {
         exclude: /node_modules/,
       },
       {
-        test: /\.css$/,
-        exclude: /node_modules/,
-        loaders: ['style-loader', 'css-loader'],
-      },
-      {
         test: /\.(eot|svg|ttf|woff|woff2)$/,
         loader: 'file?name=public/[name].[ext]',
       },
