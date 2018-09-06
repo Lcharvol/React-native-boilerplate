@@ -1,0 +1,35 @@
+{
+  "name": "Reactnativeapp",
+  "version": "0.0.0",
+  "description": "react native app",
+  "main": "index.js",
+  "repository": "",
+  "author": "Lcharvol <lcharvol@student.42.fr>",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "run-ios": "react-native run-ios --device",
+    "clean": "react-native-clean-project"
+  },
+  "contributors": [
+    {
+      "name": "Lucas Charvolin",
+      "email": "lcharvol@student.42.fr",
+      "url": "https://github.com/Lcharvol"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "react": "version_printed_above",
+    "react-hot-loader": "^4.3.6",
+    "react-native": "^0.56.0",
+    "react-native-clean-project": "^3.0.0",
+    "webpack": "^4.17.2",
+    "webpack-dev-server": "^3.1.7"
+  },
+  "devDependencies": {}
+}
