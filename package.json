@@ -7,7 +7,8 @@
   "author": "Lcharvol <lcharvol@student.42.fr>",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "run-ios": "react-native run-ios --device",
+    "run-ios": "react-native run-ios",
+    "run-android-device" :"react-native run-android",
     "clean": "react-native-clean-project"
   },
   "contributors": [
