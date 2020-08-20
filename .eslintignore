@@ -1,0 +1,4 @@
+# We ignore all sub node_modules via .eslintignore since, by default, eslint only excludes the top-level node_modules: 
+# https://github.com/eslint/eslint/issues/5646
+node_modules
+dist

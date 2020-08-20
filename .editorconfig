@@ -1,0 +1,11 @@
+root = true
+
+[*]
+# editorconfig for github purposes to display tab indent with a size of
+# 4 instead of the default browser one (e.g. 8)
+indent_size = 4
+
+end_of_line = lf
+
+[package.json]
+indent_size = 2

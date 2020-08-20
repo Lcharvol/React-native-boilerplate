@@ -1,0 +1,36 @@
+{
+	"processors": [
+    	"stylelint-processor-styled-components"
+  	],
+	"extends": [
+		"stylelint-config-recommended",
+		"stylelint-config-styled-components",
+		"stylelint-config-css-modules",
+		"stylelint-config-rational-order",
+		"stylelint-prettier/recommended"
+	],
+	"plugins": ["stylelint-prettier", "stylelint-declaration-strict-value"],
+	"rules": {
+		"prettier/prettier": true,
+		"unit-blacklist": ["px"],
+		"scale-unlimited/declaration-strict-value": [
+			["/background$/", "/color/", "/fill/", "/stroke/"],
+			{
+				"ignoreKeywords": [
+					"currentColor",
+					"inherit",
+					"initial",
+					"none",
+					"transparent"
+				]
+			}
+		],
+		"property-no-unknown": [true, {
+			"ignoreProperties": [
+				"/Color$/",
+				"/^var/",
+				"/^composes/"
+			]
+		}]
+	}
+}
